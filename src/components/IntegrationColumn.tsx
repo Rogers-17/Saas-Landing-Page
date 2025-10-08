@@ -8,7 +8,7 @@ const IntegrationColumn = (props: {
 }) => {
     const { integrations, className } = props;
   return (
-    <div className={twMerge("flex flex-col gap-4 pb-4")}>
+    <div className={twMerge("flex flex-col gap-4 pb-4", className)}>
         {integrations.map((integration) => (
             <div key={integration.name}
             className="bg-neutral-900 border border-white/10 rounded-3xl p-6 ">
