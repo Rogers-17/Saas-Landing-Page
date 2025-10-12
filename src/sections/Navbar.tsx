@@ -16,7 +16,7 @@ const navLinks = [
 
 export default function Navbar() {
 
-    const [isOpen, setIsOpen] = useState(false);
+    const [isOpen, setIsOpen] = useState<boolean>(false);
 
     return (
         <>
