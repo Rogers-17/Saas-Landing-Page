@@ -24,7 +24,9 @@ export default function Integrations() {
             <div className="container">
                 <div className="grid lg:grid-cols-2 items-center gap-16">
                     <div>
-                        <Tag>Integrations</Tag>
+                        <div className="flex justify-center">
+                            <Tag>Integrations</Tag>
+                        </div>
                          <h2 className="text-6xl font-medium mt-6 ">
                             Plays well with <span className="text-lime-400">others</span>
                         </h2>
