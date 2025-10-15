@@ -12,6 +12,9 @@ const inter = Inter({
 export const metadata: Metadata = {
     title: "Layers Landing Page",
     description: "Created with the help of Feline Tech",
+    icons: {
+        icon: "/favicon.png",
+    },
 };
 
 export default function RootLayout({
